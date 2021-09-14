@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>גן חצב</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/ganHzavJS.js"></script>
+
+</head>
+<body>
+    <div id="container"> 
+       
+        <div id="open">
+            <h1 class="headline">ילדי גן חצב</h1> <br /> <!--כותרות ראשיות-->
+            <h1 class="headline">ברוכים הבאים!</h1>
+            <img id="monsterimg"  onmouseover="onHover();" onmouseout="offHover();"  src="img/monster_1.png">
+
+            <input id="startBtn" type="button" value="בואו נתחיל" onClick="document.getElementById('spech').scrollIntoView();"  />
+        </div>
+        <br/>
+        <br/>
+        <div id="spech">
+            <!--אני מאמין-->
+            <h2>ממני אליכם</h2>
+            <p>lorem ipsuml lorem ipsum lorem ipsuml lorem ipsum lorem ipsuml lorem ipsum <br /> lorem ipsum lorem  lorem ipsum lorem  lorem ipsum lorem </p>
+            <img id="KindergartenT" src="img/Kindergarten Teacher.png" />
+        </div>
+
+        <div id="gallery">
+            <!--גלריית תמונות-->
+            <h2>חיי היום יום בגן</h2>
+            <div id="gallery1">
+                <div id="btncontainer">
+                    <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1)">&#10095;</a>
+                </div>
+                <img class="mySlides" src="img/525u_bcxj_151104.jpg">
+                <img class="mySlides" src="img/j72n_mmgb_201014_ss4mp_generated.jpg" style="visibility:hidden">
+                <img class="mySlides" src="img/m3mb_xnu8_180620.jpg" style="visibility:hidden">
+                <img class="mySlides" src="img/vector-jungle-gym-for-kids.jpg" style="visibility:hidden">
+                <img class="mySlides" src="img/zkye_vazu_160824.jpg" style="visibility:hidden">
+            </div>
+        </div>
+
+        <div id="video"> <!--קישורים לסרטונים-->
+            <h2 id="videoHeadline">סרטוני העשרה</h2>
+
+            <div id="video1">
+                <a href="https://pop.education.gov.il/sherutey-tiksuv-bachinuch/vod-broadcasts/brodcast-lnet/lions-kindergarten-5-5-14/">
+                    <img src="img/video icon.png" class="videoIcon" />
+                </a>
+                <p class="videoName">אומנות חזותית- אריות בירושלים</p>
+            </div>
+
+            <div id="video2">
+                <a href="https://pop.education.gov.il/sherutey-tiksuv-bachinuch/vod-broadcasts/realtime-vod-25-5-2020/enrichment-kindergarten-1552/">
+                    <img src="img/video icon.png" class="videoIcon" />
+                </a>                
+                <p class="videoName">העשרה-סימנים לדרך</p>
+            </div>
+            <div id="video3">
+                <a href="https://pop.education.gov.il/sherutey-tiksuv-bachinuch/vod-broadcasts/brodcast-lnet2/health-kindergarden/">
+                    <img src="img/video icon.png" class="videoIcon" />
+                </a>
+                <p class="videoName">חינוך גופני- גבינה בטעמים</p>
+            </div>
+            <div id="video4">
+                <a href="https://pop.education.gov.il/sherutey-tiksuv-bachinuch/vod-broadcasts/realtime-vod-7-6-2020/science-technology-kindergarten-1932/">
+                    <img src="img/video icon.png" class="videoIcon" />
+                </a>
+                <p class="videoName">מדע וטכנולוגיה- עצים</p>
+            </div>
+        </div>
+
+        <div id="conactdiv">
+            <!--יצירת קשר-->
+            <h2>שמרו על קשר</h2>
+
+            <div id="mail">
+                <a id="mailicon" href="mailto:ganhazav@gmail.com">
+                    <img class="conact" src="img/e-mail.png" />
+                </a>
+                <p style="font-size:18px">שלחו לי מייל</p>
+            </div>
+
+            <div id="facebook">
+                <a id="facebookicon" href="https://www.facebook.com/pages/גן%20חצב/384461552151017/">
+                    <img class="conact" src="img/facebook.png" />
+                </a>
+                <p style="font-size:18px">הצטרפו אליי לפייסבוק</p>
+            </div>
+
+            <div id="phone">
+                <a id="phoneicon" href="tel:050-1234567">
+                    <img class="conact" src="img/tel.png" />
+                </a>
+                <p style="font-size:18px">חייגו אליי</p>
+            </div>
+        </div> 
+        <div id="goodbay">
+            <p id="goodbaytxt">נתראה בקרוב</p>
+            <img id="goodbaypic" src="img/goodbay.png" />
+
+        </div>
+    </div>
+     
+
+
+</body>
+</html>
+
+  

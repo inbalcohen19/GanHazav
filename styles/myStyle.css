@@ -1,0 +1,315 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    direction: rtl;
+    background-color: #54B9E5;
+    font-family: 'Varela Round', sans-serif;
+    width: 1280px;
+}
+
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #D86EFF;
+    position: relative;
+    bottom: 20px;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*#yBubble {
+    height: 180px;
+    width: 180px;
+    z-index: 1;
+}
+
+#puBubble {
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+}
+
+#piBubble {
+    height: 90px;
+    width: 90px;
+    z-index: 1;
+}*/
+
+#container {
+    width: 1000px;
+    height: 2000px;
+    background-color: #F8D557;
+    border-radius: 100px;
+    position: relative;
+    right: 160px;
+    top: 70px;
+}
+
+#open {
+    width: 800px;
+    height: 400px;
+    /* background-color: #F8D557;
+    border-radius: 10px;*/
+    position: relative;
+    right: 120px;
+    /* bottom:100px; */
+    top: 50px;
+    /* box-shadow: 1px 0px 10px darkgrey;*/
+}
+
+#monsterimg {
+    height: 350px;
+    position: relative;
+    right: 320px;
+    bottom: 48px;
+}
+
+.headline {
+    text-align: right;
+    position: relative;
+    top: 120px;
+    right: -50px;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 0/3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 2px 2px darkgray;
+}
+
+#startBtn {
+    border-radius: 90px;
+    background-color: #D86EFF;
+    font-family: 'Varela Round';
+    font-size: 28px;
+    position: relative;
+    bottom: 100px;
+    left: 480px;
+    height: 60px;
+    width: 180px;
+    cursor: pointer;
+    border: #D86EFF;
+    box-shadow: 1px 0px 10px darkgrey;
+}
+
+    #startBtn:hover {
+        cursor: pointer;
+        border: white;
+        box-shadow: 1px 0px 10px gray;
+    }
+
+#spech {
+    height: 200px;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    right: 100px;
+}
+
+#KindergartenT {
+    height: 200px;
+    position: relative;
+    right: :300px;
+    padding-right: 550px;
+    /* padding-bottom: 400px; */
+    bottom: 150px;
+}
+
+
+#gallery {
+    position: relative;
+    height: 600px;
+    width: 1000px;
+    top: 300px;
+}
+
+.mySlides {
+    width: 40%;
+}
+
+#gallery1 {
+    position: relative;
+    right: 290px;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    color: white;
+    text-shadow: 1px 2px darkgrey;
+}
+
+/* Position the "next button" to the right */
+.next {
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    top: 150px;
+    right: 400px;
+}
+
+.prev {
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    top: 150px;
+    left: 90px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: #D86EFF;
+        opacity: 0.8;
+    }
+
+#video {
+    height: 600px;
+    width: 600px;
+    position: relative;
+    right: 300px;
+    top: 200px;
+}
+
+#videoHeadline {
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+}
+
+.videoIcon {
+    height: 70px;
+    width: 80px;
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+
+    .videoIcon:hover {
+        height: 80px;
+        width: 90px;
+        box-shadow: 1px 0px 10px gray;
+    }
+
+.videoName {
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+}
+
+#video1 {
+    position: relative;
+    height: 110px;
+    width: 150px;
+    left: 180px;
+}
+
+#video2 {
+    position: relative;
+    height: 110px;
+    width: 150px;
+    right: 30px;
+    bottom: 110px;
+}
+
+#video3 {
+    position: relative;
+    height: 110px;
+    width: 150px;
+    right: 240px;
+    bottom: 220px;
+}
+
+#video4 {
+    position: relative;
+    height: 110px;
+    width: 150px;
+    right: 450px;
+    bottom: 330px;
+}
+
+
+
+#conactdiv {
+    height: 150px;
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+    right: 400px;
+    font-size: 18px;
+}
+
+.conact {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+    .conact:hover {
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        box-shadow: 1px 0px 10px gray;
+    }
+
+#mail {
+    position: relative;
+    left: 250px;
+}
+
+#mailicon {
+    position: relative;
+    right: 80px;
+}
+
+#facebook {
+    position: relative;
+    bottom: 61px;
+}
+
+#facebookicon {
+    position: relative;
+    right: 80px;
+}
+
+#phone {
+    position: relative;
+    bottom: 120px;
+    right: 220px;
+}
+
+#phoneicon {
+    right: 75px;
+    position: relative;
+}
+
+#goodbay {
+    height: 0px;
+    position: relative;
+    bottom: 200px;
+}
+
+#goodbaypic {
+    height: 300px;
+    position: relative;
+    right: 800px;
+    bottom: 105px;
+}
+
+#goodbaytxt {
+    position: relative;
+    top: 190px;
+}
